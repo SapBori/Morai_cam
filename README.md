@@ -37,10 +37,10 @@
 </p>
 
 <p align="center">
-    <img src="./image/png/White_code.png" align="center" width="49%">
-    <figcaption>White Hue Code</figcaption>
-    <img src="./image/png/White_code.png" align="center" width="48%">
-    <figcaption>Yellow Hue Code</figcaption>
+    <a href="link"><img src="./image/png/White_code.png" align="center" width="49%"></a>
+    <figcaption align="center">White Hue Code</figcaption>
+    <a href="link"><img src="./image/png/White_code.png" align="center" width="48%"></a>
+    <figcaption align="center">Yellow Hue Code</figcaption>
 </p>
 
 
