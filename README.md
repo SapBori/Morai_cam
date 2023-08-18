@@ -32,7 +32,7 @@
 - 원하는 색깔의 영역을 bitand 연산해서 색이 있는 부분만 남김
 <figure class="half>
     <img src="./image/png/White.png" width="300px" height="400px" title="White DetectImg" align='left'/>
-    <a href="link"><img src="./image/png/Yellow.png" width="300px" height="400px" title="Yellow DetectImg" align='right'/></a>
+    <a href="link"><img src="./image/png/Yellow.png" width="300px" height="400px" title="Yellow DetectImg" /></a>
     <figcaption>White And Yellow Line</figcaption>
 </figure>
 * White Detect Code
