@@ -30,10 +30,11 @@
 - 차선을 따라가게 주행하려면 주행할 수 있는 영역과 경계선을 파악해야함
 - OpenCv2의 내부 메소드 rgbtohsv로 채도(hue)값을 이용해서 영역을 설정
 - 원하는 색깔의 영역을 bitand 연산해서 색이 있는 부분만 남김
-
-<img src="./image/png/White.png" width="300px" height="400px" title="White DetectImg">
-<img src="./image/png/Yellow.png" width="300px" height="400px" title="Yellow DetectImg">
-
+<figure class="half>
+    <img src="./image/png/White.png" width="300px" height="400px" title="White DetectImg">
+    <img src="./image/png/Yellow.png" width="300px" height="400px" title="Yellow DetectImg">
+    <figcaption>White And Yellow Line</figcaption>
+</figure>
 * White Detect Code
 <img src="./image/png/White_code.png" width="600px" height="400px">
 
