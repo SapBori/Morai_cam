@@ -35,11 +35,13 @@
     <a href="link"><img src="./image/png/Yellow.png" align="center" width="48%"></a>
     <figcaption align="center">White And Yellow Line</figcaption>
 </p>
-* White Detect Code
-<img src="./image/png/White_code.png" width="600px" height="400px">
+<p align="center">
+    * White Detect Code
+    <img src="./image/png/White_code.png" width="600px" height="400px">
 
-* Yellow Detect Code
-<img src="./image/png/White_code.png" width="600px" height="400px">
+    * Yellow Detect Code
+    <img src="./image/png/White_code.png" width="600px" height="400px">
+</p>
 
 
 ### Blend & Binary Calculation
