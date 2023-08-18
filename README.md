@@ -39,10 +39,19 @@
     - 다른곳 = 0(검정)
 
 <img src="./image/binary.gif" width="600px" height="400px">
-<<<<<<< HEAD
 
 
 ### Sliding Window
-- 
-=======
->>>>>>> 9917172c64ca27a0048cb8be8e788cdf11ec51bb
+- 차선이 어떻게 변화하는지에 따라 로봇의 회전을 제어해야하므로 차선의 선의 방향 및 모양을 분석하기위해서 Window를 여러 개 만들어서 선의 모양을 분석한다.
+- 선은 빨간선과 녹색선으로 표시(좌 : 초록, 우: 빨강)
+
+
+<img src="./image/SlidingWindow.gif" width="600px" height="400px">
+
+
+### LKAS 
+- Sliding Window를 통해서 선이 어떻게 변화하고 있는지 확인했고, 변화량에 따라 회전 량을 조절한다.
+- 우측 통행을 기준으로 왼쪽 차선은 노란색이므로 노란선을 벗어나지 않는 주행방법(좌측 선 기준 Following)을 선정하였다.
+- 위에서 5개의 윈도우의 중심 기준으로 선이 왼쪽에 많이 가있으면 왼쪽으로 가중치를 주어 최종적으로 계산해서 왼쪽으로 회전하게 하는 제어 방식  
+
+<img src="./image/LKAS.gif" width="600px" height="400px">
