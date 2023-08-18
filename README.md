@@ -36,9 +36,9 @@
     <figcaption align="center">White And Yellow Line</figcaption>
 </p>
 <p align="half">
-    <img src="./image/png/White_code.png" width="600px" height="400px">
+    <img src="./image/png/White_code.png" align="center" width="49%">
     <figcaption>White Hue Code</figcaption>
-    <img src="./image/png/White_code.png" width="600px" height="400px">
+    <img src="./image/png/White_code.png" align="center" width="48%">
     <figcaption>Yellow Hue Code</figcaption>
 </p>
 
