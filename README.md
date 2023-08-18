@@ -35,7 +35,8 @@
     <a href="link"><img src="./image/png/Yellow.png" align="center" width="48%"></a>
     <figcaption align="center">White And Yellow Line</figcaption>
 </p>
-<p align="half">
+* Code Img
+<p align="center">
     <img src="./image/png/White_code.png" align="center" width="49%">
     <figcaption>White Hue Code</figcaption>
     <img src="./image/png/White_code.png" align="center" width="48%">
