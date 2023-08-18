@@ -39,7 +39,10 @@
     - 다른곳 = 0(검정)
 
 <img src="./image/binary.gif" width="600px" height="400px">
+<<<<<<< HEAD
 
 
 ### Sliding Window
 - 
+=======
+>>>>>>> 9917172c64ca27a0048cb8be8e788cdf11ec51bb
