@@ -36,11 +36,10 @@
     <figcaption align="center">White And Yellow Line</figcaption>
 </p>
 <p align="center">
-    * White Detect Code
     <img src="./image/png/White_code.png" width="600px" height="400px">
-
-    * Yellow Detect Code
+    <figcaption>White Hue Code</figcaption>
     <img src="./image/png/White_code.png" width="600px" height="400px">
+    <figcaption>Yellow Hue Code</figcaption>
 </p>
 
 
