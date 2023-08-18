@@ -3,7 +3,7 @@
 ## 목표 
 - Scout_mini에 카메라를 달아서 Line_Detect 후 선 안에서 자율주행을 한다.
     - 중요 기술 
-    1. Bird Eye
+    1. Bird Eye Transformation
     2. White and Yello Line Sepertaion
     3. Image Blend and Binary Line
     4. Sliding Window to help following Line
@@ -15,7 +15,7 @@
 - rosbag play <플레이하고싶은 파일> 를 하면 저장된 데이터가 실행된다
 - play했을때 보고싶은 데이터는 rostopic 이나 rviz, rqt를 사용하면 됨
 
-<img src="./image/rosbag.gif" width="400px" height="400px">
+<img src="./image/rosbag.gif" width="600px" height="400px">
 
 
 ### Bird Eye
@@ -23,7 +23,7 @@
 - 그렇기에 차선을 위-> 아래로 보도록 이미지를 수정해야 라인 인식이 쉬움
 - 일정 영역을 Projection 시켜서 차선을 수직으로 볼수 있게 해야함
 
-<img src="./image/bird_eye.gif" width="400px" height="400px">
+<img src="./image/bird_eye.gif" width="600px" height="400px">
 ---
 
 ### Yellow & White Detect
@@ -38,4 +38,8 @@
     - 차선(노란색 또는 하얀색) = 1(흰색)
     - 다른곳 = 0(검정)
 
-<img src="./image/binary.gif" width="400px" height="400px">
+<img src="./image/binary.gif" width="600px" height="400px">
+
+
+### Sliding Window
+- 
