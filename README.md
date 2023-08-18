@@ -38,7 +38,8 @@
 
 <p align="center">
     <a href="link"><img src="./image/png/White_code.png" align="center" width="49%"></a>
-    <a href="link"><img src="./image/png/White_code.png" align="center" width="48%"></a>
+    <a href="link"><img src="./image/png/Yellow_code.png" align="center" width="48%"></a>
+    <figcaption align="center">White And Yellow Code</figcaption>
 </p>
 
 
