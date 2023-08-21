@@ -1,8 +1,10 @@
 # Scout Camera Simulation
 
-## 목표 
+### 목표 
 - Scout_mini에 카메라를 달아서 Line_Detect 후 선 안에서 자율주행을 한다.
-    - 중요 기술 
+---
+
+### 중요 기술 
     1. Bird Eye Transformation
     2. White and Yello Line Sepertaion
     3. Image Blend and Binary Line
@@ -29,7 +31,7 @@
 ### Yellow & White Detect
 - 차선을 따라가게 주행하려면 주행할 수 있는 영역과 경계선을 파악해야함
 - OpenCv2의 내부 메소드 rgbtohsv로 채도(hue)값을 이용해서 영역을 설정
-- 원하는 색깔의 영역을 bitand 연산해서 색이 있는 부분만 남김
+- 원하는 색깔의 영역을 bitand 연산해서 목표색이 있는 부분만 남김
 <p align="center">
     <a href="link"><img src="./image/png/White.png" align="center" width="49%"></a>
     <a href="link"><img src="./image/png/Yellow.png" align="center" width="48%"></a>
@@ -44,7 +46,8 @@
 
 
 ### Blend & Binary Calculation
-- 차선 두개를 인식한 뒤 차선 주행을 원활하게 하기 위해서 차선을 이진화 시킨다
+- 차선 두개를 인식한 뒤 이것을 Line Following에 적용 시키기 위해서 인식한 두개의 선을 한 화면에 합치기
+- 차선 주행을 원활하게 하기 위해서 차선을 0,1로 이진화 시킨다
     - 차선(노란색 또는 하얀색) = 1(흰색)
     - 다른곳 = 0(검정)
 
@@ -54,6 +57,7 @@
 ### Sliding Window
 - 차선이 어떻게 변화하는지에 따라 로봇의 회전을 제어해야하므로 차선의 선의 방향 및 모양을 분석하기위해서 Window를 여러 개 만들어서 선의 모양을 분석한다.
 - 선은 빨간선과 녹색선으로 표시(좌 : 초록, 우: 빨강)
+- 선의 좌표를 일정한 간격으로 추출 한뒤 OpenCv의 내부메소드 Rectangle로 선을 중심으로 일정한 간격의 윈도우를 생성
 
 
 <img src="./image/SlidingWindow.gif" width="600px" height="400px">
