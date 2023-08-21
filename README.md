@@ -6,7 +6,7 @@
 
 ### 중요 기술 
     1. Bird Eye Transformation
-    2. White and Yello Line Sepertaion
+    2. White and Yellow Line Sepertaion
     3. Image Blend and Binary Line
     4. Sliding Window to help following Line
     5. Line Keeping Assit System Algorithm
