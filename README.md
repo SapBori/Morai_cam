@@ -2,6 +2,7 @@
 
 ### 목표 
 - MORAI Simulation 환경에서 Scout_mini에 카메라를 달아서 Line_Detect 후 선 안에서 자율주행을 한다.
+
 ---
 
 ### 중요 기술 
@@ -26,7 +27,8 @@
 - 일정 영역을 Projection 시켜서 차선을 수직으로 볼수 있게 해야함
 
 <img src="./image/bird_eye.gif" width="600px" height="400px">
----
+
+------------
 
 ### Yellow & White Detect
 - 차선을 따라가게 주행하려면 주행할 수 있는 영역과 경계선을 파악해야함
