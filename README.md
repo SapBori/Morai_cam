@@ -46,6 +46,7 @@
     <figcaption align="center">White And Yellow Code</figcaption>
 </p>
 
+---------
 
 ### Blend & Binary Calculation
 - 차선 두개를 인식한 뒤 이것을 Line Following에 적용 시키기 위해서 인식한 두개의 선을 한 화면에 합치기
@@ -55,6 +56,7 @@
 
 <img src="./image/binary.gif" width="600px" height="400px">
 
+---------
 
 ### Sliding Window
 - 차선이 어떻게 변화하는지에 따라 로봇의 회전을 제어해야하므로 차선의 선의 방향 및 모양을 분석하기위해서 Window를 여러 개 만들어서 선의 모양을 분석한다.
@@ -64,6 +66,7 @@
 
 <img src="./image/SlidingWindow.gif" width="600px" height="400px">
 
+---------
 
 ### LKAS 
 - Sliding Window를 통해서 선이 어떻게 변화하고 있는지 확인했고, 변화량에 따라 회전 량을 조절한다.
