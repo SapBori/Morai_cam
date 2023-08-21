@@ -1,7 +1,7 @@
 # Scout Camera Simulation
 
 ### 목표 
-- Scout_mini에 카메라를 달아서 Line_Detect 후 선 안에서 자율주행을 한다.
+- MORAI Simulation 환경에서 Scout_mini에 카메라를 달아서 Line_Detect 후 선 안에서 자율주행을 한다.
 ---
 
 ### 중요 기술 
